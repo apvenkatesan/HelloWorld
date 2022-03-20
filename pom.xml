@@ -37,6 +37,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>helloworld</finalName>
 	</build>
 
 	<distributionManagement>
