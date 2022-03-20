@@ -33,7 +33,7 @@ jobs:
 #       with:
 #         name: Package
 #         path: staging
-        
+
     - name: Publish artifact on GitHub Packages
       run: mvn -B clean deploy -DskipTests
       env:
