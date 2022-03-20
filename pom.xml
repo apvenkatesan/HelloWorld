@@ -43,7 +43,7 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>corp1</id>
 			<name>Corporate Repository</name>
-			<url>scp://repo/maven2</url>
+			<url>https://maven.pkg.github.com/apvenkatesan/HelloWorld</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
