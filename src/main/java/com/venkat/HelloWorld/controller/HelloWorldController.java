@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
     @GetMapping("/{name}")
     public String sayHello(@PathVariable(value = "name", required = false) String name) {
-        return "Hi " + name + " Welcome !";
+        return "Hi " + name + " Welcome.";
     }
 }
